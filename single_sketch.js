@@ -22,6 +22,6 @@ function draw(){
 
 function mousePressed() {
   for (let i = 0; i < bubbles.length; i++) {
-    bubbles[i].clicked(mouseX, mouseY);
+    bubbles[i].changeBrightnessOnClick(mouseX, mouseY);
   }
 }
